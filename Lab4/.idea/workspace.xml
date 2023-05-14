@@ -2,35 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70720415-937e-49bf-8554-f6c7cb90c09f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab5/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/Lab5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Data/B.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Data/C.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Data/D.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Data/MC.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Data/MD.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Data/MM.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Data/MT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Task1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Task2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Task3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Task4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/Task5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/out/production/Lab5/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/src/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/src/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/src/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/src/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/src/Task5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab5/src/Task5Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/Lab6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab6/Data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab6/Data/B.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab6/Data/C.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab6/Data/D.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab6/Data/MC.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab6/Data/MD.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab6/Data/MM.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab6/Data/MT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab6/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab6/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/out/production/Lab6/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Data/B.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Data/C.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Data/D.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Data/MC.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Data/MD.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Data/MM.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Data/MT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab6/src/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lab5/src/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5/src/output.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1684071006317</updated>
       <workItem from="1684071007976" duration="2772000" />
-      <workItem from="1684073983997" duration="3533000" />
+      <workItem from="1684073983997" duration="4132000" />
     </task>
     <servers />
   </component>
