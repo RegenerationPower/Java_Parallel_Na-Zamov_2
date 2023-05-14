@@ -52,6 +52,7 @@ public class Main {
             CountDownLatch latch = new CountDownLatch(4);
             ExecutorService executor = Executors.newFixedThreadPool(5);
             Lock lock = new ReentrantLock();
+            ForkJoinPool pool = new ForkJoinPool();
 
             double[][] MC = new double[sizeMC][sizeMC];
             double[][] MD = new double[sizeMD][sizeMD];
@@ -69,84 +70,24 @@ public class Main {
             data.readVector("src/Data/B.txt", B);
             data.readVector("src/Data/D.txt", D);
 
-            Callable<double[]> task1 = () -> {
-                A1 = data.multiplyVectorByMatrix(B, MT);
-                lock.lock();
-                try {
-                    System.arraycopy(A1, 0, result1, 0, A1.length);
-                    System.out.println("\nResult B*MT: " + Arrays.toString(A1));
-                    writer.println("\nResult B*MT: " + Arrays.toString(result1));
-                } finally {
-                    lock.unlock();
-                }
-                latch.countDown();
-                return A1;
-            };
 
-            Callable<double[]> task2 = () -> {
-                A2 = data.addVectorToVector(data.multiplyVectorByMatrix(C, MC),
-                        data.multiplyVectorByScalar(data.multiplyVectorByMatrix(D, MM), a));
-                    lock.lock();
-                    try {
-                        System.arraycopy(A2, 0, result2, 0, A2.length);
-                        System.out.println("\nResult C*МС+D*MM*a: " + Arrays.toString(A2));
-                        writer.println("\nResult C*МС+D*MM*a: " + Arrays.toString(result2));
-                    } finally {
-                        lock.unlock();
-                    }
-                latch.countDown();
-                return A2;
-            };
+            Task1 task1 = (Task1) Task1.createTask(B, MT, A1, result1, writer, lock, latch, data);
+            result1 = pool.invoke(task1);
 
-            Callable<double[][]> task3 = () -> {
-                MA1 = data.multiplyMatrixByMatrix(MC, data.addMatrixToMatrix(MT, MM));
-                lock.lock();
-                try {
-                    for (int i = 0; i < MA1.length; i++) {
-                        System.arraycopy(MA1[i], 0, result3[i], 0, MA1[i].length);
-                    }
-                    System.out.println("\nResult MC*(MT+MM): " + Arrays.deepToString(MA1));
-                    writer.println("\nResult MC*(MT+MM): " + Arrays.deepToString(result3));
-                } finally {
-                    lock.unlock();
-                }
-                latch.countDown();
-                return MA1;
-            };
+            Task2 task2 = (Task2) Task2.createTask(a, C, D, MC, MM, A2, result2, writer, lock, latch, data);
+            result2 = pool.invoke(task2);
 
-            Callable<double[][]> task4 = () -> {
-                MA2 = data.multiplyMatrixByMatrix(
-                        data.multiplyMatrixByScalar(data.findMaxValue(data.subtractVectors(B, D)), MD), MT);
-                lock.lock();
-                try {
-                    for (int i = 0; i < MA2.length; i++) {
-                        System.arraycopy(MA2[i], 0, result4[i], 0, MA2[i].length);
-                    }
-                    System.out.println("\nResult max(B-D)*MD*MT: " + Arrays.deepToString(MA2));
-                    writer.println("\nResult max(B-D)*MD*MT: " + Arrays.deepToString(result4));
-                } finally {
-                    lock.unlock();
-                }
-                latch.countDown();
-                return MA2;
-            };
+            Task3 task3 = (Task3) Task3.createTask(MC, MT, MM, MA1, result3, writer, lock, latch, data);
+            result3 = pool.invoke(task3);
 
-            executor.submit(() -> {
-                try {
-                    latch.await();
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                synchronized(Main.class) {
-                    A = data.subtractVectors(A2, A1);
-                    MA = data.subtractMatrices(MA2, MA1);
-                }
-            });
+            Task4 task4 = (Task4) Task4.createTask(B, D, MD, MT, MA2, result4, writer, lock, latch, data);
+            result4 = pool.invoke(task4);
 
-            executor.submit(task1);
-            executor.submit(task2);
-            executor.submit(task3);
-            executor.submit(task4);
+            Task5 task5 = (Task5) Task5.createTask(result1, result2, result3, result4, A, MA, latch, data);
+            Task5Result task5Result = pool.invoke(task5);
+
+            A = task5Result.getA();
+            MA = task5Result.getMA();
 
             try {
                 latch.await();
