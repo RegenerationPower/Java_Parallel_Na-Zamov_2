@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d3ba8c3-142d-4dc4-a367-7a1f5848353e" name="Changes" comment="lab1 finished">
+    <list default="true" id="70720415-937e-49bf-8554-f6c7cb90c09f" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../Lab3/.idea/jpa-buddy.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab3/Lab3.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Data.class" afterDir="false" />
@@ -20,32 +20,32 @@
       <change afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/Main.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/input.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab3/out/production/Lab3/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/Lab4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/src/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/src/Data/B.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/src/Data/C.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/src/Data/D.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/src/Data/MC.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/src/Data/MD.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/src/Data/MM.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/src/Data/MT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/src/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/src/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/B.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/C.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/D.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/MC.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/MD.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/MM.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Data/MT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1/out/production/lab1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/out/production/lab1/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1/out/production/lab1/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/out/production/lab1/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab1/src/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab1/src/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lab2/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lab2/output.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/out/production/Lab2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/out/production/Lab2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/out/production/Lab2/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/out/production/Lab2/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab2/src/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab2/src/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3/src/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/output.txt" afterDir="false" />
@@ -61,7 +61,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2PmjaPkZdGAyfCsGb8fLik4em2k" />
+  <component name="ProjectId" id="2PmnDJ41PTBf6vgxGclHUmeM1VO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -76,28 +76,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/N/Lab3"
+    "last_opened_file_path": "C:/N/Lab1"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0d3ba8c3-142d-4dc4-a367-7a1f5848353e" name="Changes" comment="" />
-      <created>1684069215752</created>
+      <changelist id="70720415-937e-49bf-8554-f6c7cb90c09f" name="Changes" comment="" />
+      <created>1684071006317</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684069215752</updated>
-      <workItem from="1684069217308" duration="1773000" />
-      <workItem from="1684073089209" duration="26000" />
+      <updated>1684071006317</updated>
+      <workItem from="1684071007976" duration="2594000" />
     </task>
-    <task id="LOCAL-00001" summary="lab1 finished">
-      <created>1684069483706</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1684069483706</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,7 +107,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="lab1 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab1 finished" />
   </component>
 </project>

@@ -11,12 +11,12 @@ import java.util.Scanner;
 public class Main {
     private static final String INPUT = "src\\input.txt";
     private static final String OUTPUT = "src\\output.txt";
-    private static volatile double[] A1;
-    private static volatile double[] A2;
-    private static volatile double[] A;
-    private static volatile double[][] MA1;
-    private static volatile double[][] MA2;
-    private static volatile double[][] MA;
+    private static double[] A1;
+    private static double[] A2;
+    private static double[] A;
+    private static double[][] MA1;
+    private static double[][] MA2;
+    private static double[][] MA;
     private static boolean t1Finished = false;
     private static boolean t2Finished = false;
     private static boolean t3Finished = false;
