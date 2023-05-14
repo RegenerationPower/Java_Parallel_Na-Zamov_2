@@ -21,6 +21,7 @@ public class Main {
     private static boolean t2Finished = false;
     private static boolean t3Finished = false;
     private static boolean t4Finished = false;
+
     public static void main(String[] args) {
         long startTime = System.nanoTime();
         Data data = new Data();
@@ -50,13 +51,6 @@ public class Main {
             double[][] result3 = new double[sizeMC][sizeMC];
             double[][] result4 = new double[sizeMC][sizeMC];
 
-/*            double[][] MC = functions.generateRandomMatrix(sizeMC, sizeMC);
-            double[][] MD = functions.generateRandomMatrix(sizeMD, sizeMD);
-            double[][] MM = functions.generateRandomMatrix(sizeMM, sizeMM);
-            double[][] MT = functions.generateRandomMatrix(sizeMT, sizeMT);
-            double[] C = functions.generateRandomArray(sizeC);
-            double[] B = functions.generateRandomArray(sizeB);
-            double[] D = functions.generateRandomArray(sizeD);*/
             double[][] MC = new double[sizeMC][sizeMC];
             double[][] MD = new double[sizeMD][sizeMD];
             double[][] MM = new double[sizeMM][sizeMM];
@@ -65,14 +59,6 @@ public class Main {
             double[] B = new double[sizeB];
             double[] D = new double[sizeD];
 
-
-/*            functions.writeMatrixToFile(MC, "src/Data/MC.txt");
-            functions.writeMatrixToFile(MD, "src/Data/MD.txt");
-            functions.writeMatrixToFile(MM, "src/Data/MM.txt");
-            functions.writeMatrixToFile(MT, "src/Data/MT.txt");
-            functions.writeVectorToFile(C, "src/Data/C.txt");
-            functions.writeVectorToFile(B, "src/Data/B.txt");
-            functions.writeVectorToFile(D, "src/Data/D.txt");*/
             data.readMatrix("src/Data/MC.txt", MC);
             data.readMatrix("src/Data/MD.txt", MD);
             data.readMatrix("src/Data/MM.txt", MM);
